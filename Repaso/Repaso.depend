@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1723650793 source:c:\users\emanu\onedrive\escritorio\carrera\estructura de datos i\c\repaso\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1723659445 source:c:\users\emanu\onedrive\escritorio\carrera\estructura de datos i\c\repaso\acumulador.c
+	<stdio.h>
+	<stdlib.h>
+
