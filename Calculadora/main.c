@@ -28,22 +28,16 @@ char continuar;
     float numero1 = 0;
     float numero2 = 0;
     float resultado = 0;
-    float numero, potencia;
     int operacion = 0;
 
+    printf("---CALCULADORA---\n");
 
-    printf("CALCULADORA\n");
     printf("INGRESE UNA OPERACION: \n");
     printf("1 : SUMA\n");
-
     printf("2 : RESTA\n");
-
     printf("3 : MULTIPLICACION\n");
-
     printf("4 : DIVISION\n");
-
     printf("5 : RAIZ CUADRADA\n");
-
     printf("6 : POTENCIA\n");
 
 
@@ -93,7 +87,7 @@ char continuar;
          printf("INGRESE EL SEGUNDO NUMERO\n");
          scanf("%f",&numero2);
          if(numero1 == 0 || numero2 == 0){
-         printf("EL NUMERO DEBE SER MAYOR A CERO.");
+         printf("EL NUMERO DEBE SER MAYOR A CERO.\n");
 
          }else {
          resultado = numero1 / numero2 ;
@@ -109,7 +103,7 @@ char continuar;
 
 
          if(numero1 <=0){
-            printf("EL NUMERO DEBE SER POSITIVO.");
+            printf("EL NUMERO DEBE SER POSITIVO.\n");
          }else {
           resultado = sqrt(numero1);
          printf("LA RAIZ CUADRADA DE %.0f ES : %.1f  \n",numero1, resultado);
@@ -139,12 +133,12 @@ char continuar;
 
     }
 
-        printf(" DESEA REALIZAR OTRA OPERACION ?(si/no):\n ");
+        printf("DESEA REALIZAR OTRA OPERACION ?(s/n):\n ");
         scanf(" %c", &continuar); // El espacio antes de %c evita problemas con espacios en blanco
-    } while (continuar == 'si' || continuar == 'SI');
+    } while (continuar == 's' || continuar == 'S');
 
 
-    printf("FIN DEL PROGRAMA.");
+    printf("FIN DEL PROGRAMA.\n");
 
     return 0;
 }
