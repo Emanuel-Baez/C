@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1723824782 source:c:\users\emanu\onedrive\escritorio\c\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
