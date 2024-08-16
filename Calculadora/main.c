@@ -34,17 +34,17 @@ char continuar;
 
     printf("CALCULADORA\n");
     printf("INGRESE UNA OPERACION: \n");
-    printf("OPERACION 1 : SUMA\n");
+    printf("1 : SUMA\n");
 
-    printf("OPERACION 2 : RESTA\n");
+    printf("2 : RESTA\n");
 
-    printf("OPERACION 3 : MULTIPLICACION\n");
+    printf("3 : MULTIPLICACION\n");
 
-    printf("OPERACION 4 : DIVISION\n");
+    printf("4 : DIVISION\n");
 
-    printf("OPERACION 5 : RAIZ CUADRADA\n");
+    printf("5 : RAIZ CUADRADA\n");
 
-    printf("OPERACION 6 : POTENCIA\n");
+    printf("6 : POTENCIA\n");
 
 
     scanf("%d",&operacion);
@@ -52,6 +52,8 @@ char continuar;
     switch(operacion){
 
     case 1 :
+
+         printf("---OPERACION DE SUMA---\n");
           printf("INGRESE EL PRIMERO NUMERO\n");
           scanf("%f",&numero1);
 
@@ -62,6 +64,7 @@ char continuar;
     break;
 
      case 2 :
+         printf("---OPERACION DE RESTA---\n");
           printf("INGRESE EL PRIMER NUMERO\n");
           scanf("%f",&numero1);
 
@@ -72,6 +75,7 @@ char continuar;
     break;
 
     case 3 :
+        printf("---OPERACION DE MULTIPLICACION---\n");
           printf("INGRESE EL PRIMER NUMERO\n");
           scanf("%f",&numero1);
 
@@ -83,6 +87,7 @@ char continuar;
 
     case 4 :
 
+    printf("---OPERACION DE DIVISION---\n");
          printf("INGRESE EL PRIMER NUMERO\n");
          scanf("%f",&numero1);
          printf("INGRESE EL SEGUNDO NUMERO\n");
@@ -97,6 +102,8 @@ char continuar;
 
     break;
     case 5 :
+
+        printf("---OPERACION DE RAIZ---\n");
          printf("INGRESE UN NUMERO\n");
          scanf("%f",&numero1);
 
@@ -111,17 +118,18 @@ char continuar;
 
     break;
     case 6 :
+         printf("---OPERACION DE POTENCIA---\n");
 
-         printf("INGRESE UN NUMERO\n");
-         scanf("%f",&numero);
+         printf("INGRESE LA BASE:\n");
+         scanf("%f",&numero1);
 
-         printf("INGRESE LA POTENCIA\n");
-         scanf("%f",&potencia);
+         printf("INGRESE EL EXPONENTE:\n");
+         scanf("%f",&numero2);
 
 
-        resultado = pow(numero, potencia);
+        resultado = pow(numero1, numero2);
 
-        printf("LA POTENCIA DE %.0f ES : %.2f \n",numero, resultado);
+        printf("LA POTENCIA ES : %.2f \n",resultado);
 
 
     break;
@@ -131,9 +139,9 @@ char continuar;
 
     }
 
-        printf("¿Desea realizar otra operación? (s/n): ");
+        printf(" DESEA REALIZAR OTRA OPERACION ?(si/no):\n ");
         scanf(" %c", &continuar); // El espacio antes de %c evita problemas con espacios en blanco
-    } while (continuar == 's' || continuar == 'S');
+    } while (continuar == 'si' || continuar == 'SI');
 
 
     printf("FIN DEL PROGRAMA.");
