@@ -30,7 +30,7 @@ int main()
 
     if (costoEnvio == -1){
 
-    printf("EL PRECIO FINAL ES : %f \n",precioProducto);
+    printf("EL PRECIO FINAL ES : %.2f \n",precioProducto);
     printf("NO SE PUEDE REALIZAR ENVIO, RETIRAR EN SUCURSAL\n");
 
     }else{
