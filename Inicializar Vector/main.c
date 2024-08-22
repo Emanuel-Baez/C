@@ -7,11 +7,14 @@ int main()
 
     int vector[10];
 
+    //INICIALIZAMOS EL VECTOR EN 0
+
      for(int i = 0;i < 10;i++){
 
        vector[i]= 0;
     }
 
+    //INGRESO DE VALORES
 
     for(int i = 0;i < 10;i++){
         printf("Ingrese un valor: \n");
@@ -19,6 +22,7 @@ int main()
 
     }
 
+    //MUESTRA DE VALORES POR PANTALLA.
     for(int i = 0; i < 10; i++){
             if(vector[i]==0){
                 break;
