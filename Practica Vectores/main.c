@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#define MAXDATOS 30
 int main()
 {
 
@@ -15,27 +15,39 @@ int main()
     */
 
 
-    float numeros[5];
+    float numeros[MAXDATOS];
+    int i = 1;
+    float resultado;
+    float acumulador;
+    int contador;
 
-int i = 0;
-    for(i = 1;i <= 5;i++){
+    printf("Ingrese notas. Para terminar, ingrese 0.\n");
+
+    while( i< MAXDATOS){
 
     printf("Ingresa una nota :\n");
     scanf("%f",&numeros[i]);
-    }
 
+    acumulador += numeros[i];
 
-    for(i = 1;i <= 5;i++){
-
-        if(numeros[i]== 0){
+     if(numeros[i]== 0){
             break;
-        }else{
-             printf(" La %d nota ingresada es : %.2f \n",i,numeros[i]);
-
         }
+     i++;
+     contador ++;
+    }
 
+
+    for(i = 1;i <= numeros[i];i++){
+     printf(" La %d nota ingresada es : %.2f \n",i,numeros[i]);
 
     }
+
+    printf("Acumulador : %.2f \n",acumulador);
+     printf("Contador : %.2d \n",contador);
+    resultado = acumulador / contador;
+
+    printf("Promedio : %.2f \n",resultado);
 
     return 0;
 }
