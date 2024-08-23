@@ -14,15 +14,21 @@ int main() {
     float maximo=0;
     float minimo = 0;
     float temperaturas[TEMP_MAX];
-    ingresarTemperaturas(temperaturas, TEMP_MAX);
 
+    //LLAMADA FUNCIONES
+   ingresarTemperaturas(temperaturas, TEMP_MAX);
    promedio = calcularPromedio(temperaturas,TEMP_MAX);
    maximo = encontrarMaximo(temperaturas,TEMP_MAX);
    minimo = encontrarMinimo(temperaturas,TEMP_MAX);
    mostrarResultados( temperaturas, TEMP_MAX,promedio,maximo,minimo);
+
     return 0;
+
 }
 
+//DECLARACION DE FUNCIONES:
+
+//CARGA DE TEMPERATURAS AL VECTOR.
 void ingresarTemperaturas(float temperaturas[], int tamano) {
     for (int i = 0; i < tamano; i++) {
         printf("Ingresa una temperatura: \n");
@@ -64,7 +70,7 @@ float encontrarMinimo(float temperaturas[], int tamano) {
     }
     return minimo;
 }
-
+//MOSTRAR RESULTADOS
 
 void mostrarResultados(float temperaturas[], int tamano, float promedio,float maximo,float minimo) {
     for (int i = 0; i < tamano; i++) {
