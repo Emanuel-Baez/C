@@ -9,9 +9,7 @@ int main()
     2 - Solicitar el ingreso de notas (pueden tener decimales) y almacenarlas en un vector hasta que el usuario ingrese 0
     (se permite un maximo de 30 notas).Luego mostrar por pantalla el listado de notas ingresadas.
     3 - Luego de imprimir las notas del ejercicio anterior, calcular el promedio.
-    4 - Realizar un programa que solicite el ingreso de temperaturas del ambiente (°c) que se fueron registrando a lo largo
-    del dia (maximo 10 temperaturas) y las almacene en un vector. Al finalizar imprimirlas por pantalla e indicar la temperatura minima, maxima y
-    promedio.
+
     */
 
 
