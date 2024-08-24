@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1724444080 source:c:\users\emanu\onedrive\escritorio\c\strlen\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
