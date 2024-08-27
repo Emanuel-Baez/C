@@ -14,7 +14,7 @@ int main()
 
      float maximo = encontrarMaximo(vector,5);
      float minimo = encontrarMinimo(vector,5);
-      mostrarDatos(vector,5,maximo,minimo);
+     mostrarDatos(vector,5,maximo,minimo);
 
     return 0;
 }
