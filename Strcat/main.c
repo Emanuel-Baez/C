@@ -9,10 +9,11 @@ int main()
     /*
     Strcat :
     Este metodo concatena una cadena a la otra.
+    La segunda cadena ingresada se le añande a la primera.
 
     */
 
-    char strOrigen[5];
+    char strOrigen[20];
 
     char strDestino[20];
 
