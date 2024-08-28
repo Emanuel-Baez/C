@@ -8,7 +8,7 @@ int main()
     int vector []={8,6,4,3,7};
 
 
-printf("Forma Ordenada;");
+printf("Forma Ordenada:");
     for(int i = 0; i<5;i++){
         printf("\n %d",vector[i]);
     }
@@ -31,7 +31,7 @@ printf("Forma Ordenada;");
     }
     }while(ordenado == 0);
 
-printf("\n Forma Desordenada");
+printf("\n Forma Desordenada:");
     for(int i = 0; i<5;i++){
         printf("\n %d",vector[i]);
     }
