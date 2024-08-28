@@ -18,9 +18,8 @@ int main()
     }
 
     for(int i = 0; i < 5; i++){
-        printf(" %d", vector[i]); // quita el salto de línea aquí
+        printf(" %d", vector[i]);
     }
-    printf("\n"); // agrega un salto de línea al final
-
+    printf("\n");
     return 0;
 }
