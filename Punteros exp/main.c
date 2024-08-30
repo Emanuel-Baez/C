@@ -12,4 +12,13 @@ int main() {
 
 
     return 0;
+
+    /*
+    En este ejemplo:
+
+    numero es una variable que almacena el valor 10.
+    puntero es un puntero que apunta a un entero.
+    &numero es la dirección de memoria de la variable numero.
+    *puntero es el valor al que apunta el puntero.
+    */
 }
