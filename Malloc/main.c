@@ -17,29 +17,6 @@ puedes solicitar memoria adicional durante la ejecución, según tus necesidades.
     void *malloc(size_t size);
 
 
-    ///////////////////////////////////////////////////////////////////
-    int *numeros;
-    int n;
-
-    printf("Ingrese la cantidad de números: ");
-    scanf("%d",&n);
-
-    // Reservar memoria para n enteros
-    numeros = (int*) malloc(n * sizeof(int));
-
-    // Verificar si la asignación de memoria fue exitosa
-    if (numeros == NULL) {
-        printf("Error: no se pudo asignar memoria.\n");
-        return 1;
-    }
-
-    // Utilizar la memoria asignada
-    for (int i = 0; i < n; i++) {
-        numeros[i] = i + 1;
-    }
-
-    // Liberar la memoria asignada
-    free(numeros);
 
     return 0;
 }
