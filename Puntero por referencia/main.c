@@ -16,5 +16,5 @@ int main()
 }
 
  void incrementarNumero (int *puntero){
-    *puntero++;
+    (*puntero)++;
 }
