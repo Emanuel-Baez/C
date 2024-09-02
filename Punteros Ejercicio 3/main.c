@@ -11,11 +11,16 @@ int main() {
     // Llenar el arreglo
     for (int i = 0; i < 5; i++) {
         printf("Ingrese el %d numero: ", i + 1);
-        scanf("%d", &vector[i]); // Pasar la dirección del elemento específico
+        scanf("%d", &vector[i]); // Pasar la direcciÃ³n del elemento especÃ­fico
     }
 
+<<<<<<< HEAD
     // Calcular la suma y no avanzar el puntero aquí
 
+=======
+    // Calcular la suma y no avanzar el puntero aquÃ­
+    //int *ptr2 = vector; // Puntero al inicio del arreglo para calcular la suma
+>>>>>>> bf0d532cad3b18e199e930d1e7d3769f7e48da66
     for (int i = 0; i < 5; i++) {
         suma += *ptr; // Desreferenciar el puntero para obtener el valor
         ptr++; // Avanzar al siguiente elemento
