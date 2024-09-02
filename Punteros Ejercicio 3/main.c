@@ -5,6 +5,7 @@ int main() {
 
     int vector[5];
     int *ptr = vector; // Puntero al inicio del arreglo
+    // ptr = &vector;
     int suma = 0;
 
     // Llenar el arreglo
@@ -14,14 +15,14 @@ int main() {
     }
 
     // Calcular la suma y no avanzar el puntero aquí
-    //int *ptr2 = vector; // Puntero al inicio del arreglo para calcular la suma
+
     for (int i = 0; i < 5; i++) {
         suma += *ptr; // Desreferenciar el puntero para obtener el valor
         ptr++; // Avanzar al siguiente elemento
     }
 
     // Reiniciar el puntero al inicio del arreglo para imprimir los valores
-   // ptr = vector;
+    ptr = vector;
     for (int i = 0; i < 5; i++) {
         printf("Valor ingresado %d : %d\n", i, *ptr);
         ptr++; // Avanzar al siguiente elemento
