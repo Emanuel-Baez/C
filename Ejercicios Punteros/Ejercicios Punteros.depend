@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1726071788 source:c:\users\home\desktop\c\ejercicios punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1726079020 source:c:\users\home\desktop\c\ejercicios punteros\ejercicio 2 punteros.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
