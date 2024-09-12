@@ -3,8 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
-//Prototipos
-//void imprimirCadena(char*);
+//Prototipo:
+
 void convertirAmayuscula(char[]);
 int main()
 {
