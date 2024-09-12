@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1726175823 source:c:\users\home\desktop\c\contar caracteres en una cadena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

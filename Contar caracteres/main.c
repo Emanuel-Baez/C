@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+//no es necesario poner los corchetes, al ser un puntero es como si fuera un vector.
 void imprimirCadena(char *cadena);
 int main()
 {
