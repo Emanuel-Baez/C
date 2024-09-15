@@ -29,6 +29,7 @@ Rellena con guiones un string
 void rellenarConGuiones(char * )
 */
 char palabraSecreta[50];
+    int intentos = 3;
     
     printf("Hello world!\n");
     return 0;
