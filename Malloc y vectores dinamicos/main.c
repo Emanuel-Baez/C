@@ -34,8 +34,8 @@ int main()
      printf("Valor : %d \n",*vector+1);
      printf("Posicion de memoria : %p \n",vector+1);
      //Imprime la tercer posicion del puntero vector.
-      printf("%d \n",*vector+2);
-      printf("Posicion de memoria : %p \n",vector+2);
+     printf("%d \n",*vector+2);
+     printf("Posicion de memoria : %p \n",vector+2);
       //Imprime la cuarta posicion del puntero vector.
       printf("%d \n",*vector+3);
       printf("Posicion de memoria : %p \n",vector+3);
